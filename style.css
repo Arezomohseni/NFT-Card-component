@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: "outfit";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.img {
+    background-image: url("./images/image-equilibrium.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    background-color: #00fff76b;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+.img:hover .layer {
+    display: flex;
+    cursor: pointer;
+
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.nft {
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+h3 {
+    padding: 20px 0px;
+}
+
+.leftright {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.eth {
+    background-image: url("./images/icon-ethereum.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.eth {
+    width: 15px;
+    height: 15px;
+}
+
+.right {
+    display: flex;
+}
+
+.clock {
+    background-image: url("./images/icon-clock.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.clock {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 5px;
+}
+
+footer:hover,
+h3:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+button {
+    background-image: url("./images/image-avatar.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: hsl(0, 0%, 100%);
+}
+
+div.text {
+    border-bottom: 3px solid hsl(215, 32%, 27%);
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.para {
+    width: 250px;
+    color: hsl(215, 51%, 70%);
+}
+
+.name,
+h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+.num {
+    color: hsl(178, 100%, 50%);
+}
